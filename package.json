@@ -1,0 +1,13 @@
+{
+  "name": "vmchart",
+  "private": true,
+  "description": "NodeJS Virtual Memory cli-chart",
+  "version": "0.0.1",
+  "homepage": "",
+  "author": {
+    "name": "jtbonhomme"
+  },
+  "dependencies": {
+    "cli-chart": "*"
+  }
+}
