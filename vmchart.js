@@ -1,9 +1,13 @@
+/*
+ * TO DO:
+ * Add options for stb ip, program name, memory type, interval
+ */
 var Chart = require('cli-chart');
 
 var exec = require('child_process').exec,
     child_ps, child_vmrss, child_cols;
 
-var STB_IP          = "10.0.1.30";
+var STB_IP          = "jtbdev.local";
 var PROG_NAME       = "qtwebkitlauncher";
 //var PROG_NAME       = "uwsgi";
 var MEMORY_TYPE     = "VmRSS";
